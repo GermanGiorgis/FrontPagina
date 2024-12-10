@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+*{
+	font-family: 'Cabin', sans-serif;
+	scroll-behavior: smooth;
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	font-size: 18px;
+}
+section{
+	padding: 7em;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border: 5px;
+}
+.main-container{
+	display:  flex;
+	justify-content: center;
+	background-color: #ecf0f1;
+	min-width: 780px;
+}
+.sucursales{
+	background-color: #fff;
+	width: 1280px;
+	min-width: 780px;
+}
+.sucursal{
+	padding: 4em;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	justify-content: space-around;
+}
+.sucursal-Name{
+	display: flex;
+	justify-content: center;
+}

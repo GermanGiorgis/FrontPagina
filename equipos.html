@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- --TITULO-- -->
+	<title>Catálogo</title>
+	<!-- --ESTILOS-- -->
+	<link rel="stylesheet" type="text/css" href="css/style-equipos.css">
+	<link rel="stylesheet" type="text/css" href="css/img-buttom.css">
+	<link rel="stylesheet" type="text/css" href="css/style-header-footer.css">
+	<link rel="stylesheet" type="text/css" href="responsive/resp-equipos.css">
+	<link rel="stylesheet" href="css/fontello.css">
+</head>
+<body>
+	<header>
+      <div class="logo">
+         <a href="#"><img src="../Caristia/img/logoCaristia.png"></a>
+      </div>
+      <div class="titulo">
+         <h1>Equipos</h1>
+      </div>
+      <div class="menu">
+         <ul>
+            <li><a href="index.html">Inicio</a></li>
+         </ul> 
+      </div>
+      <div class="btn-home">
+         <a href="index.html" class="icon-home"></a>
+      </div>
+   </header>
+   <section class="proveedores">
+   	<div class="proveedores-container">
+   		<ul>
+   			<li><img src="img/Proveedores/1.png"></li>
+   			<li><img src="img/Proveedores/2.png"></li>
+   			<li><img src="img/Proveedores/3.png"></li>
+   			<li><img src="img/Proveedores/4.png"></li>
+   			<li><img src="img/Proveedores/5.png"></li>
+   		</ul>
+   	</div>
+   </section>
+   <section class="proveedores-slider">
+   	<div class="slider">
+   		<ul>
+   			<li><img src="img/Proveedores/1.png"></li>
+   			<li><img src="img/Proveedores/2.png"></li>
+   			<li><img src="img/Proveedores/3.png"></li>
+   			<li><img src="img/Proveedores/4.png"></li>
+   			<li><img src="img/Proveedores/5.png"></li>
+   		</ul>
+   	</div>
+   </section>
+   <section class="categorias">
+    <div class="categorias-container">
+    	<div class="row2">
+	      <div class="row">
+	  	        <a href="1hornos.html" class="buttom" id="horno"><p>Hornos</p></a>
+		        <a href="2amasadoras.html" class="buttom" id="amasadora"><p>Amasadoras</p></a>
+		        <a href="4sobadoras.html" class="buttom" id="sobadora"><p>Sobadoras</p></a>
+		    </div>
+          <div class="row">
+	  	    <a href="7armadoras.html" class="buttom" id="armadora"><p>Armadoras</p></a>
+		    <a href="#" class="buttom" id="cortadora"><p>Cortadoras</p></a>
+		    <a href="5trinchadoras.html" class="buttom" id="trinchadora"><p>Trinchadoras</p></a>
+	      </div>
+	   </div>
+	   <div class="row2">	
+	      <div class="row">
+	  	    <a href="3batidoras.html" class="buttom" id="batidora"><p>Batidoras</p></a>
+	  	    <a href="#" class="buttom" id="rayadora"><p>Rayadoras</p></a>
+		    <a href="#" class="buttom" id="pasta"><p>Maquinas de Pastas</p></a>
+	      </div>
+	      <div class="row">
+	  	    <a href="#" class="buttom" id="bollera"><p>Bolleras</p></a>
+		    <a href="#" class="buttom" id="divisora"><p>Divisoras</p></a>
+		    <a href="#" class="buttom" id="medialunera"><p>Medialuneras</p></a>
+	      </div>
+	   </div>
+	   <div class="row2">
+	      <div class="row">
+	  	    <a href="6rebanadoras.html" class="buttom" id="rebanadora"><p>Rebanadoras</p></a>
+		    <a href="#" class="buttom" id="mesones"><p>Mesones</p></a>
+		    <a href="#" class="buttom" id="utiles"><p>Utiles</p></a>
+	      </div>
+	      <div class="row">
+	  	    <a href="#" class="buttom" id="bandeja"><p>Bandejas</p></a>
+		    <a href="#" class="buttom" id="laminadora"><p>Laminadoras</p></a>
+		    <a href="#" class="buttom" id="amoblamiento"><p>Amoblamiento</p></a>
+	      </div>
+	   </div>
+	   <div class="row2">
+	      <div class="row">
+	       <a href="#" class="buttom" id="biscomatic"><p>Biscomatic</p></a>
+		    <a href="#" class="buttom" id="estampadora"><p>Estampadora</p></a>
+		    <a href="#" class="buttom" id="camara"><p>Cámaras de frío</p></a>
+	      </div>
+	      <div class="row" id="last">
+		    <a href="#" class="buttom" id="fermentadora"><p>Cámaras fermentadoras</p></a>
+	      </div>
+	   </div>
+	 </div>
+	</section>
+	<footer id="contact-info">
+      <div class="logos">
+         <a href="#"  target="_BLANK"class="buttom-logo"><img src="img/wspLogo.png"></a>
+         <a href="https://www.instagram.com/comercialcaristia/" target="_BLANK" class="buttom-logo"><img src="img/instagramLogo.png"></a>
+      </div>
+      <div class="copy">
+      <p>© 2022 Comercial Caristia <br> Diseño <a href="#"><b>Giorgis WD</b></a></p>
+      </div>
+      <div class="contact">
+         <h4>CONTACTANOS</h4>
+         <a href="#" target="_BLANK" class="buttom-logo" ><img class="logoGmail" src="img/gmailLogo.png"></a>
+      </div>
+   </footer>
+
+   <script type="text/javascript">
+    window.addEventListener("scroll", function(){
+      var header = document.querySelector("header");
+      header.classList.toggle("abajo",window.scrollY>200);
+    })
+    </script>
+</body>
+</html>

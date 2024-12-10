@@ -1,0 +1,130 @@
+ <!DOCTYPE html>
+ <html lang="es">
+ <head>
+ 	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- --TITULO-- -->
+ 	<title>Comercial Caristia</title> <!---->
+   <!-- --ESTILOS-- -->
+ 	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/style-header-footer.css">
+  <link rel="stylesheet" href="css/fontello.css">
+  <link rel="stylesheet" type="text/css" href="responsive/resp-index.css">
+   <!-- --SCRIPTS-- -->
+ </head>
+ <body>
+
+ 	  <header> 
+ 		  <div class="logo"> <!--Lgo que al clickear redirige a la pagina princpal-->
+         <a href="#"><img src="../Caristia/img/logoCaristia.png"></a>
+      </div>
+      <div class="btn-menu">
+       <label  for="btn" class="icon-menu"></label> <!--Menu principal donde van colocadas las opciones de vizualizacion -->
+      </div>
+ 		  <div class="menu">
+ 			 <ul>
+ 				<li class="menu-item"><a href="#about">Sobre nosotros</a></li>
+ 				<li class="menu-item"><a href="#catalogo">Catálogo</a></li>
+ 				<li class="menu-item"><a href="#sucursales">Sucursales</a></li>
+ 				<li class="menu-item"><a href="#contact-info">Contáctanos</a></li>
+ 			 </ul>
+ 		  </div>
+ 	  </header>
+<!--contenido de la pagina principal-->
+    <div class="section-container">
+ 	    <section class="banner" id="about">
+ 		    <div class="title-banner">
+ 			   <h1>Comercial Caristia</h1> <!--primer titulo-->
+        </div>
+        <div class="description-banner">
+ 			   <p>Equipamientos para <b>Panaderías</b>, <b>Pastelerías</b> y <b>Fábricas de pastas</b>.<br>
+         Zona Cuyo, Argentina</p>
+ 		    </div>
+ 	    </section>
+ 	    <section class="catalogo" id="catalogo">
+
+        <div class="catalogo-info">
+ 		      <div class="catalogo-title">
+ 			     <h2>Equipos</h2>
+          </div>
+          <div class="section-buttom">
+ 			     <a href="equipos.html" class="buttom">Todas las categorías</a>
+ 		      </div>
+        </div>
+       
+        <div class="cards">
+          <div class="product-card">
+            <a href="2amasadoras.html">
+              <div class="card-img"><img src="img/Equipos/Amasadoras/1.jpg" width="400px"></div>
+              <div class="card-info"><h5>AMASADORAS</h5></div>
+            </a>
+          </div>
+          <div class="product-card">
+            <a href="1hornos.html">
+              <div class="card-img"><img src="img/Equipos/Hornos/1.jpg" width="400px"></div>
+              <div class="card-info"><h5>HORNOS</h5></div>
+            </a>
+          </div>
+          <div class="product-card">
+            <a href="5trinchadoras.html">
+              <div class="card-img"><img src="img/Equipos/Trinchadoras/1.jpg" width="400px"></div>
+              <div class="card-info"><h5>TRINCHADORAS</h5></div>
+            </a>
+          </div>
+        </div>
+
+      </section>
+ 	    <section class="sucursales" id="sucursales">
+        <div class="sucursales-container">
+ 		      <div class="sucursales-title">
+ 			      <h2>Sucursales</h2>
+          </div>
+          <div class="section-buttom">
+ 			      <a href="sucursales.html" class="buttom">Ver todas</a>
+          </div>
+        </div>
+ 	    </section>
+    </div>
+
+    <footer id="contact-info">
+      <div class="logos">
+         <a href="https://wa.me/5492616535868?text=Quisiera%20consultar%20sobre%20sus%20equipos"  target="_BLANK"class="buttom-logo"><img src="img/wspLogo.png"></a>
+         <a href="https://www.instagram.com/comercialcaristia/" target="_BLANK" class="buttom-logo"><img src="img/instagramLogo.png"></a>
+      </div>
+      <div class="copy">
+      <p>© 2024 Comercial Caristia <br> Diseño <a href="https://wa.me/+542613429556"><b>Giorgis WD</b></a></p>
+      </div>
+      <div class="contact">
+         <h4>CONTACTANOS</h4>
+         <a href="https://wa.me/+542613429556" target="_BLANK" class="buttom-logo"><img class="logoGmail" src="img/gmailLogo.png"></a>
+
+      </div>
+    </footer>
+
+    <input type="checkbox" id="btn">
+    
+    <div class="container-menu">
+      <div class="cont-menu">
+        <nav>
+            <a href="#about">Sobre nosotros</a>
+            <a href="#catalogo">Catálogo</a>
+            <a href="#sucursales">Sucursales</a>
+            <a href="#contact-info">Contáctanos</a>
+        </nav>
+        <label for="btn" class="icon-close"></label>
+      </div>
+    </div>
+
+
+    <script type="text/javascript">
+    window.addEventListener("scroll", function(){
+      var header = document.querySelector("header");
+      header.classList.toggle("abajo",window.scrollY>200);
+    })
+    </script>
+
+
+ 	 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+ </body>
+ </html>

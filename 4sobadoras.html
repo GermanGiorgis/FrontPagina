@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- --TITULO-- -->
+	<title>Sobadoras</title>
+   <!-- --ESTILOS-- -->
+	<link rel="stylesheet" type="text/css" href="css/style-producto.css">
+   <link rel="stylesheet" type="text/css" href="css/style-header-footer.css">
+   <link rel="stylesheet" type="text/css" href="responsive/resp-producto.css">
+   <link rel="stylesheet" href="css/fontello.css">
+</head>
+<body>
+   <header>
+      <div class="logo">
+         <a href="#"><img src="../Caristia/img/logoCaristia.png"></a>
+      </div>
+      <div class="titulo">
+         <h1>Sobadoras</h1>
+      </div>
+      <div class="menu">
+         <ul>
+            <li><a href="#formulario">Consultas</a></li>
+            <li><a href="equipos.html" class="icon-back"></a></li>
+         </ul> 
+      </div>
+      <div class="btn-home">
+         <a href="#formulario" class="icon-form"></a>
+         <a href="equipos.html" class="icon-back"></a>
+      </div>
+   </header>
+ 	<div class="main-container">
+ 		<section class="productos">
+ 		   <div class="producto">
+ 		    	<img class="img" src="img/Equipos/Sobadoras/1.jpg" width="100%">
+ 		    	<div class="info">
+ 		    	  <h4 class="titulo">Indupan<br>Pesada</h4>
+ 		    	  <button id="boton" class="icon-info" onclick="mostrar(document.getElementById('desc'));"></button>
+               <div class="descripcion" id="desc">
+                <p>Equipada con cilindros de 600x170<br>
+                   Mesada de acero inoxidable, 3° rolo de seguridad y parada de emergencia.<br> 
+                   <b>Potencia de motor: </b>5.5HP<br>
+                   Disponible en línea Omega</p>
+                <button id="boton" class="icon-up" onclick="ocultar(document.getElementById('desc'));"></button>
+               </div>
+ 		      </div>
+ 		   </div>
+         <div class="producto">
+            <img class="img" src="img/Equipos/Sobadoras/2.jpg" width="100%">
+            <div class="info">
+              <h4 class="titulo">Pauna<br>Pastelera</h4>
+              <button id="boton" class="icon-info" onclick="mostrar(document.getElementById('desc4'));"></button>
+               <div class="descripcion" id="desc4">
+                <p> Cilindros de 550x130<br>
+                    Mesada en acero inoxidable<br>
+                    Regulación por cremallera<br>
+                    Parada de emergencia<br>
+                    Trasmisión por engranaje<br>
+                    Cilindros laminados sin costura</p>
+                <button id="boton" class="icon-up" onclick="ocultar(document.getElementById('desc4'));"></button>
+               </div>
+            </div>
+         </div>
+         <div class="producto">
+            <img class="img" src="img/Equipos/Sobadoras/3.jpg" width="100%">
+            <div class="info">
+              <h4 class="titulo">Indupan<br>Automática</h4>
+              <button id="boton" class="icon-info" onclick="mostrar(document.getElementById('desc2'));"></button>
+               <div class="descripcion" id="desc2">
+                <p>Cadena doble con cintra transportadora de entrada y salida<br>
+                   Cilindros con cromo duro de 600mm<br>
+                   <b>Potencia de motor: </b>7.5HP<br>
+                   Dispone en línea Omega</p>
+                <button id="boton" class="icon-up" onclick="ocultar(document.getElementById('desc2'));"></button>
+               </div>
+            </div>
+         </div>
+         <div class="producto">
+            <img class="img" src="img/Equipos/Sobadoras/4.jpg" width="100%">
+            <div class="info">
+              <h4 class="titulo">Pauna<br>Pesada</h4>
+              <button id="boton" class="icon-info" onclick="mostrar(document.getElementById('desc3'));"></button>
+               <div class="descripcion" id="desc3">
+                <p>Cilindro de 600x170<br>
+                   Mesada en acero inoxidable<br>
+                   Regulación por cremallera<br>
+                   Parada de emergencia<br>
+                   Trasmisión con engranajes<br>
+                   Cilindros laminados sin costura.</p>
+                <button id="boton" class="icon-up" onclick="ocultar(document.getElementById('desc3'));"></button>
+               </div>
+            </div>
+         </div>
+         <div class="producto">
+            <img class="img" src="img/Equipos/Sobadoras/5.jpg" width="100%">
+            <div class="info">
+              <h4 class="titulo">Zunino<br>Pesada</h4>
+              <button id="boton" class="icon-info" onclick="mostrar(document.getElementById('desc5'));"></button>
+               <div class="descripcion" id="desc5">
+                <p><b>Potencia de Motor: </b>5.5HP<br>
+                   Cilindros de 600x168</p>
+                <button id="boton" class="icon-up" onclick="ocultar(document.getElementById('desc5'));"></button>
+               </div>
+            </div>
+         </div>
+         <div class="producto">
+            <img class="img" src="img/Equipos/Sobadoras/6.jpg" width="100%">
+            <div class="info">
+              <h4 class="titulo">Pesada</h4>
+              <button id="boton" class="icon-info" onclick="mostrar(document.getElementById('desc6'));"></button>
+               <div class="descripcion" id="desc6">
+                <p><b>Potencia de Motor: </b>3HP<br>
+                   Cilindros de 600x120</p>
+                <button id="boton" class="icon-up" onclick="ocultar(document.getElementById('desc6'));"></button>
+               </div>
+            </div>
+         </div>
+         
+       </section>
+       <section class="formulario" id="formulario">
+         <form action="enviar.php" method="post">
+            <!--<fieldset>-->
+                <legend>Formulario de contacto</legend> 
+                <input type="text" name="NyA" required placeholder="Nombre y Apellido" >
+                <input type="number" name="Telefono" required placeholder="Número de teléfono">
+                <input type="email" name="Correo" required placeholder="Correo Electrónico">
+                <textarea name="descripcion" required placeholder="Nombre y breve descripción del producto solicitado" style="height: 150px;"></textarea>
+                <input type="submit" name="Enviar">
+            <!--</fieldset>-->
+         </form>
+      </section>
+   </div>
+   <footer id="contact-info">
+      <div class="logos">
+         <a href="#"  target="_BLANK"class="buttom-logo"><img src="img/wspLogo.png"></a>
+         <a href="https://www.instagram.com/comercialcaristia/" target="_BLANK" class="buttom-logo"><img src="img/instagramLogo.png"></a>
+      </div>
+      <div class="copy">
+      <p>© 2022 Comercial Caristia <br> Diseño <a href="#"><b>Giorgis WD</b></a></p>
+      </div>
+      <div class="contact">
+         <h4>CONTACTANOS</h4>
+         <a href="#" target="_BLANK" class="buttom-logo" ><img class="logoGmail" src="img/gmailLogo.png"></a>
+      </div>
+   </footer>
+
+   <script src="js/funciones.js"></script>
+</body>

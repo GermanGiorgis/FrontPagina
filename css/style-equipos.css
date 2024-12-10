@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+*{
+	font-family: 'Cabin', sans-serif;
+	scroll-behavior: smooth;
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	font-size: 18px;
+	background: linear-gradient(to top, #afb7c1 40%, #2e518b);
+}
+
+/* -- PROVEEDORES -- */
+
+.proveedores{
+	max-width: 100%;
+	padding-bottom: 20px;
+	padding-top: 100px;
+	max-width: 100%;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	bottom: 0;	
+}
+.proveedores-container{
+	padding: 30px;
+	padding-bottom: 10px;
+	width: 90%;
+	min-width: 330px;
+	background-color: #fff;
+}
+.proveedores-container ul{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	list-style: none;
+	padding: 0;
+}
+.proveedores-container ul li{
+	display: flex;
+	justify-content: center;
+}
+.proveedores-container img{
+	width: 70%;
+}
+.proveedores-slider{
+	padding-bottom: 20px;
+	padding-top: 100px;
+	max-width: 100%;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	bottom: 0;
+	display: none;
+	opacity: 0;
+}
+.slider{
+	width: 90%;
+	min-width: 330px;
+	background-color: #fff;
+	overflow: hidden;
+}
+.slider ul{
+	padding: 0;
+	width: 500%;
+	height: 100%;
+	display: flex;
+	animation: slide 12s infinite alternate linear;
+}
+.slider li{
+	width: 100%;
+	list-style: none;
+	
+}
+.slider ul img{
+	width: 100%;
+	padding: 0;
+}
+
+/* -- CATEGORIAS -- */
+
+.categorias{
+	padding-bottom: 50px;
+	max-width: 100%;
+	margin: 0;
+	display: flex;
+	justify-content: center;	
+}
+.categorias-container{
+	padding: 30px;
+	width: 90%;
+	min-width: 330px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #fff;
+}
+.row2{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+.row{
+	padding: 20px;
+	margin: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+.row .buttom{
+	font-size: 20px;
+	transition: all .5s ease-in-out;
+	color: #ecf0f1;
+	width: 30%;
+	min-width: 150px;
+	height: 200px;
+	text-align: center;
+	text-decoration: none;
+	margin: 20px;
+	padding: 50px;
+	border-radius:5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.row .buttom p{
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.75);
+	border-radius: 5px;
+}
+.buttom:hover{
+	width: 50%;
+	height: 220px;
+	font-size: +30px;
+	box-shadow: 5px 5px 10px black;
+	text-decoration: underline;
+}
+
+/* -- ANIMACIONES -- */
+
+@keyframes slide{
+	5%{margin-left: 0;}
+	25%{margin-left: 0;}
+
+	30%{margin-left: -100%;}
+	50%{margin-left: -100%;}
+
+	55%{margin-left: -200%;}
+	75%{margin-left: -200%;}
+
+	80%{margin-left: -300%;}
+	100%{margin-left: -300%;}
+
+
+}

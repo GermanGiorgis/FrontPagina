@@ -1,0 +1,286 @@
+#horno{
+	animation: animacionHornos 28s infinite linear;
+	background-size: cover;
+	background-position: center;
+}
+#amasadora{
+	animation: animacionAmasadoras 28s infinite linear;
+	background-size: cover;
+	background-position: center center;
+}
+#sobadora{
+    animation: animacionSobadoras 28s infinite linear;	
+    background-size: cover;
+	background-position: center center;
+}
+#armadora{
+	animation: animacionArmadoras 28s infinite linear;
+	background-size: cover;
+	background-position: center center;
+}
+#cortadora{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Equipos/Cortadoras/1.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+#trinchadora{
+	animation: animacionTrinchadoras 28s infinite linear;
+	background-size: cover;
+	background-position: center center;
+}
+#batidora{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Equipos/Batidoras/3.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+#rayadora{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Equipos/Rayadoras/1.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+#pasta{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Equipos/MaquinasPastas/1.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+#bollera{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Equipos/Bolleras/1.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+#divisora{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Equipos/Divisoras/1.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+#medialunera{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Equipos/Medialuneras/1.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+#rebanadora{
+	animation: animacionSobadoras 28s infinite linear;
+	background-size: cover;
+	background-position: center center;
+}
+#mesones{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Equipos/Mesones/1.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+#utiles{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Equipos/Utiles/1.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+#bandeja{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Equipos/Bandejas/1.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+#laminadora{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Equipos/Laminadoras/1.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+#amoblamiento{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Equipos/Amoblamientos/1.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+#biscomatic{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Equipos/Biscomatic/1.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+#estampadora{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Equipos/Estampadoras/1.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+#camara{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Equipos/CámarasFrío/1.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+#fermentadora{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Equipos/CámarasFermentadoras/1.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+
+
+@keyframes animacionHornos{
+	0%{
+		background-image: url("../img/Equipos/Hornos/1.jpg");
+	}
+	25%{
+		background-image: url("../img/Equipos/Hornos/2.jpg");
+	}
+
+	25%{
+		background-image: url("../img/Equipos/Hornos/2.jpg");
+	}
+	50%{
+		background-image: url("../img/Equipos/Hornos/3.jpg");
+	}
+
+	50%{
+		background-image: url("../img/Equipos/Hornos/3.jpg");
+	}
+	75%{
+		background-image: url("../img/Equipos/Hornos/4.jpg");
+	}
+
+	75%{
+		background-image: url("../img/Equipos/Hornos/4.jpg");
+	}
+	100%{
+		background-image: url("../img/Equipos/Hornos/1.jpg");
+	}
+}
+@keyframes animacionAmasadoras{
+	0%{
+		background-image: url("../img/Equipos/Amasadoras/1.jpg");
+	}
+	25%{
+		background-image: url("../img/Equipos/Amasadoras/2.jpg");
+	}
+
+	25%{
+		background-image: url("../img/Equipos/Amasadoras/2.jpg");
+	}
+	50%{
+		background-image: url("../img/Equipos/Amasadoras/3.jpg");
+	}
+
+	50%{
+		background-image: url("../img/Equipos/Amasadoras/3.jpg");
+	}
+	75%{
+		background-image: url("../img/Equipos/Amasadoras/4.jpg");
+	}
+
+	75%{
+		background-image: url("../img/Equipos/Amasadoras/4.jpg");
+	}
+	100%{
+		background-image: url("../img/Equipos/Amasadoras/1.jpg");
+	}
+}
+@keyframes animacionSobadoras{
+	0%{
+		background-image: url("../img/Equipos/Sobadoras/1.jpg");
+	}
+	25%{
+		background-image: url("../img/Equipos/Sobadoras/2.jpg");
+	}
+
+	25%{
+		background-image: url("../img/Equipos/Sobadoras/2.jpg");
+	}
+	50%{
+		background-image: url("../img/Equipos/Sobadoras/3.jpg");
+	}
+
+	50%{
+		background-image: url("../img/Equipos/Sobadoras/3.jpg");
+	}
+	75%{
+		background-image: url("../img/Equipos/Sobadoras/4.jpg");
+	}
+
+	75%{
+		background-image: url("../img/Equipos/Sobadoras/4.jpg");
+	}
+	100%{
+		background-image: url("../img/Equipos/Sobadoras/1.jpg");
+	}
+}
+@keyframes animacionRebanadoras{
+	0%{
+		background-image: url("../img/Equipos/Rebanadoras/1.jpg");
+	}
+	25%{
+		background-image: url("../img/Equipos/Rebanadoras/2.jpg");
+	}
+
+	25%{
+		background-image: url("../img/Equipos/Rebanadoras/2.jpg");
+	}
+	50%{
+		background-image: url("../img/Equipos/Rebanadoras/3.jpg");
+	}
+
+	50%{
+		background-image: url("../img/Equipos/Rebanadoras/3.jpg");
+	}
+	75%{
+		background-image: url("../img/Equipos/Rebanadoras/4.jpg");
+	}
+
+	75%{
+		background-image: url("../img/Equipos/Rebanadoras/4.jpg");
+	}
+	100%{
+		background-image: url("../img/Equipos/Rebanadoras/1.jpg");
+	}
+}
+@keyframes animacionTrinchadoras{
+	0%{
+		background-image: url("../img/Equipos/Trinchadoras/1.jpg");
+	}
+	25%{
+		background-image: url("../img/Equipos/Trinchadoras/2.jpg");
+	}
+
+	25%{
+		background-image: url("../img/Equipos/Trinchadoras/2.jpg");
+	}
+	50%{
+		background-image: url("../img/Equipos/Trinchadoras/3.jpg");
+	}
+
+	50%{
+		background-image: url("../img/Equipos/Trinchadoras/3.jpg");
+	}
+	75%{
+		background-image: url("../img/Equipos/Trinchadoras/4.jpg");
+	}
+
+	75%{
+		background-image: url("../img/Equipos/Trinchadoras/4.jpg");
+	}
+	100%{
+		background-image: url("../img/Equipos/Trinchadoras/1.jpg");
+	}
+}
+@keyframes animacionArmadoras{
+	0%{
+		background-image: url("../img/Equipos/Armadoras/1.jpg");
+	}
+	25%{
+		background-image: url("../img/Equipos/Armadoras/2.jpg");
+	}
+
+	25%{
+		background-image: url("../img/Equipos/Armadoras/2.jpg");
+	}
+	50%{
+		background-image: url("../img/Equipos/Armadoras/3.jpg");
+	}
+
+	50%{
+		background-image: url("../img/Equipos/Armadoras/3.jpg");
+	}
+	75%{
+		background-image: url("../img/Equipos/Armadoras/2.jpg");
+	}
+
+	75%{
+		background-image: url("../img/Equipos/Armadoras/2.jpg");
+	}
+	100%{
+		background-image: url("../img/Equipos/Armadoras/1.jpg");
+	}
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- --TITULO-- -->
+	<title>Rebanadoras</title>
+   <!-- --ESTILOS-- -->
+	<link rel="stylesheet" type="text/css" href="css/style-producto.css">
+   <link rel="stylesheet" type="text/css" href="css/style-header-footer.css">
+   <link rel="stylesheet" type="text/css" href="responsive/resp-producto.css">
+   <link rel="stylesheet" href="css/fontello.css">
+</head>
+<body>
+   <header>
+      <div class="logo">
+         <a href="#"><img src="../Caristia/img/logoCaristia.png"></a>
+      </div>
+      <div class="titulo">
+         <h1>Rebanadoras</h1>
+      </div>
+      <div class="menu">
+         <ul>
+            <li><a href="#formulario">Consultas</a></li>
+            <li><a href="equipos.html" class="icon-back"></a></li>
+         </ul> 
+      </div>
+      <div class="btn-home">
+         <a href="#formulario" class="icon-form"></a>
+         <a href="equipos.html" class="icon-back"></a>
+      </div>
+   </header>
+ 	<div class="main-container">
+ 		<section class="productos">
+ 		   <div class="producto">
+ 		    	<img class="img" src="img/Equipos/Armadoras/1.jpg" width="100%">
+ 		    	<div class="info">
+ 		    	  <h4 class="titulo">Armadora de pan Indupan</h4>
+ 		    	  <button id="boton" class="icon-info" onclick="mostrar(document.getElementById('desc'));"></button>
+               <div class="descripcion" id="desc">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <button id="boton" class="icon-up" onclick="ocultar(document.getElementById('desc'));"></button>
+               </div>
+ 		      </div>
+ 		   </div>
+         <div class="producto">
+            <img class="img" src="img/Equipos/Armadoras/2.jpg" width="100%">
+            <div class="info">
+              <h4 class="titulo">Armadora de pan de miga</h4>
+              <button id="boton" class="icon-info" onclick="mostrar(document.getElementById('desc2'));"></button>
+               <div class="descripcion" id="desc2">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <button id="boton" class="icon-up" onclick="ocultar(document.getElementById('desc2'));"></button>
+               </div>
+            </div>
+         </div>
+         <div class="producto">
+            <img class="img" src="img/Equipos/Armadoras/3.jpg" width="100%">
+            <div class="info">
+              <h4 class="titulo">Medialunera automática Zunino</h4>
+              <button id="boton" class="icon-info" onclick="mostrar(document.getElementById('desc3'));"></button>
+               <div class="descripcion" id="desc3">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <button id="boton" class="icon-up" onclick="ocultar(document.getElementById('desc3'));"></button>
+               </div>
+            </div>
+         </div>
+         
+      </section>
+      <section class="formulario" id="formulario">
+         <form action="enviar.php" method="post">
+            <!--<fieldset>-->
+                <legend>Formulario de contacto</legend> 
+                <input type="text" name="NyA" required placeholder="Nombre y Apellido" >
+                <input type="number" name="Telefono" required placeholder="Número de teléfono">
+                <input type="email" name="Correo" required placeholder="Correo Electrónico">
+                <textarea name="descripcion" required placeholder="Nombre y breve descripción del producto solicitado" style="height: 150px;"></textarea>
+                <input type="submit" name="Enviar">
+            <!--</fieldset>-->
+         </form>
+      </section>
+   </div>
+   <footer id="contact-info">
+      <div class="logos">
+         <a href="#"  target="_BLANK"class="buttom-logo"><img src="img/wspLogo.png"></a>
+         <a href="https://www.instagram.com/comercialcaristia/" target="_BLANK" class="buttom-logo"><img src="img/instagramLogo.png"></a>
+      </div>
+      <div class="copy">
+      <p>© 2022 Comercial Caristia <br> Diseño <a href="#"><b>Giorgis WD</b></a></p>
+      </div>
+      <div class="contact">
+         <h4>CONTACTANOS</h4>
+         <a href="#" target="_BLANK" class="buttom-logo" ><img class="logoGmail" src="img/gmailLogo.png"></a>
+      </div>
+   </footer>
+
+   <!-- --SCRIPTS-- -->
+   <script src="js/funciones.js"></script>
+</body>

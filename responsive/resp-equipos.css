@@ -1,0 +1,63 @@
+@media screen and (max-width:  880px){
+
+}
+
+@media screen and (max-width:  730px){
+	.row{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+		padding: 5px;
+		min-width:200px;
+	}
+	.row2{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+	}
+	#last{
+		justify-content: flex-start;
+	}
+	.buttom{
+		width: 100% !important;
+	}.proveedores-slider{
+		display: flex;
+		opacity: 1;
+	}
+	.proveedores{
+		display: none;
+		opacity: 0;
+	}
+
+}
+
+@media screen and (max-width:  470px){
+	.row2{
+		flex-direction: column;
+	}
+	.menu{
+		display: none;
+	}
+	header .menu{
+		display: none;
+		opacity: 0;
+	}
+	header div{
+		min-width: 80px;
+	}
+	.btn-home{
+		opacity: 1;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.abajo{
+		background: rgba(175,183,193,1);
+	}
+	footer .contact h4{
+    	display: none;
+    	opacity: 0;
+    }
+}

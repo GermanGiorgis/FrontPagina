@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+*{
+	font-family: 'Cabin', sans-serif;
+	scroll-behavior: smooth;
+}
+body{
+	padding:  0;
+	margin: 0;
+	font-size: 15px;
+}
+
+/* -- CONTENEDORES -- */
+
+section{
+	max-width: 100%;
+	min-width: 300px;
+	height: 100vh;
+	padding: 100px;
+	margin: 0;
+}
+
+/* -- BANNER --*/
+
+.banner{
+	height: 50vh;
+	background-image: url(../img/fondoBanner.png);
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	text-align: initial;
+}
+.title-banner h1{
+	margin: 0;
+	padding: 0.33em;
+	color: #fff;
+	border-radius: 5px;
+	box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.75);
+	font-size: 2em;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.description-banner{
+	color: #fff;
+	font-size: 1.26em;
+	max-width: 40%;
+	min-width: 180px;
+	border-radius: 5px;
+	margin: 10px;
+}
+
+/* -- PRODUCTOS -- */
+
+.catalogo{
+	background-image: url(../img/fondoProductos.png);
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+}
+.catalogo-info{
+	color: #fff;
+	width: 180px;
+	min-width: 140px;
+	height: 60%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.catalogo-title h2{
+	padding: 5px;
+	margin: 1em;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+	font-size: 2em;
+}
+.section-buttom{
+	height: 4em;
+	transition: 0.5s;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	padding: 2px;
+	margin: 1em;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+}
+.section-buttom a{
+	color: #fff;
+	padding: 0;
+	text-decoration: none;
+	font-size: 1.5em;
+}
+.section-buttom:hover{
+	font-size: 0.80em;
+	transition: 0.5s;
+	border-radius: 25px;
+}
+.cards{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+	text-align: center;
+}
+.product-card{
+	width: 25%;
+	margin: 20px;
+	padding: 10px;
+	background: linear-gradient(to bottom, #bdc3c7 20%, #3498db);
+	border-radius: 25px;
+	text-align: center;
+	box-shadow: -5px -5px 0px rgba(0, 0, 0, 0.75);
+}
+.card-img img{
+	width: 100%;
+	margin: 0;
+	border-radius: 25px;
+}
+.card-info h5{
+	color: #fff;
+	font-size: 1em;
+	margin: 0;
+	padding: 0;
+}
+.card-info a{
+	transition: 0.5s;
+	color: #fff;
+	text-decoration: none;
+}
+.card-info a:hover{
+
+	color: #fdcb6e;
+}
+
+
+/* -- SUCURSALES -- */
+
+
+.sucursales{
+	background-image: url(../img/fondoSucursales.png);
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: flex-end;
+}
+.sucursales-container{
+	color: #fff;
+	width: 180px;
+	min-width: 140px;
+	height: 60%;
+	background: rgba(175,183,193,0.5);
+	box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.5);
+	border-radius: 25px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.sucursales-title h2{
+	padding: 5px;
+	margin: 1em;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+	font-size: 2em;
+}

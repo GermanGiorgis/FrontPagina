@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- --TITULO-- -->
+	<title>Hornos</title>
+   <!-- --ESTILOS-- -->
+	<link rel="stylesheet" type="text/css" href="css/style-producto.css">
+   <link rel="stylesheet" type="text/css" href="css/style-header-footer.css">
+   <link rel="stylesheet" type="text/css" href="responsive/resp-producto.css">
+   <link rel="stylesheet" href="css/fontello.css">
+</head>
+<body>
+   <header>
+      <div class="logo">
+         <a href="#"><img src="../Caristia/img/logoCaristia.png"></a>
+      </div>
+      <div class="titulo">
+         <h1>Hornos</h1>
+      </div>
+      <div class="menu">
+         <ul>
+            <li><a href="#formulario">Consultas</a></li>
+            <li><a href="equipos.html" class="icon-back"></a></li>
+         </ul> 
+      </div>
+      <div class="btn-home">
+         <a href="#formulario" class="icon-form"></a>
+         <a href="equipos.html" class="icon-back"></a>
+      </div>
+   </header>
+ 	<div class="main-container">
+ 		<section class="productos">
+         <button onclick="enviarCliente()">CREAR CLIENTE</button>
+ 		    <div class="producto">
+ 		    	<img class="img" src="img/Equipos/Hornos/1.jpg" width="100%">
+ 		    	<div class="info">
+ 		    	   <h4 class="titulo">Rotativo Pauna 70x90</h4>
+               <button id="boton" class="icon-info"  
+                  onfocus="mostrar(document.getElementById('desc')) ;" 
+                  onblur="ocultar(document.getElementById('desc')) ;">
+               </button>
+               <div class="descripcion" id="desc">
+ 		    	    <p>Construccion interna, piso y revestimiento en acero inoxidable.<br>
+                   Enganche de carro superior.<br>
+                   Para carro de 15 bandejas 70x90 o 60x80.<br>
+                   OPCIONES: Quemador a <b>GAS</b>, <b>ELECTRICO</b> y a <b>GASOIL</b>.<br>
+                   <b>Disponible en línea full (Vidrio curvo)</b><br>
+                   Capacidad de cocción: 140-150 kg/h
+                </p>
+               </div>
+ 		      </div>
+          </div>
+          <div class="producto">
+            <img class="img" src="img/Equipos/Hornos/3.jpg" width="100%">
+            <div class="info">
+              <h4 class="titulo">Rotativo 70x90 Full</h4>
+              <button id="boton" class="icon-info" onfocus="mostrar(document.getElementById('desc1')) ;" 
+                  onblur="ocultar(document.getElementById('desc1')) ;"></button>
+               <div class="descripcion" id="desc1">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+               </div>
+              </div>
+          </div>
+          <div class="producto">
+            <img class="img" src="img/Equipos/Hornos/15.jpg" width="100%">
+            <div class="info">
+              <h4 class="titulo">Rotativo Pauna 8 bandejas</h4>
+              <button id="boton" class="icon-info" onfocus="mostrar(document.getElementById('desc2')) ;" 
+                  onblur="ocultar(document.getElementById('desc2')) ;"></button>
+               <div class="descripcion" id="desc2">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+               </div>
+              </div>
+          </div>
+          <div class="producto">
+            <img class="img" src="img/Equipos/Hornos/10.jpg" width="100%">
+            <div class="info">
+              <h4 class="titulo">Rotativo ZU 95</h4>
+              <button id="boton" class="icon-info" onfocus="mostrar(document.getElementById('desc4')) ;" 
+                  onblur="ocultar(document.getElementById('desc4')) ;"></button>
+               <div class="descripcion" id="desc4">
+                <p>Ideal para aquellos que están iniciándose en el rubro.<br>
+                   Para carros de 15 bandejas 70x45 o 60x40.<br>
+                   Opciones: Quemador a <b>GAS</b> y <b>ELECTRICO</b>.<br>
+                   Capacidad de cocción 70 kg/h.
+                </p>
+               </div>
+            </div>
+          </div>
+          <div class="producto">
+            <img class="img" src="img/Equipos/Hornos/2.jpg" width="100%">
+            <div class="info">
+              <h4 class="titulo">Rotativo ZU 96</h4>
+              <button id="boton" class="icon-info" onfocus="mostrar(document.getElementById('desc5')) ;" 
+                  onblur="ocultar(document.getElementById('desc5')) ;"></button>
+               <div class="descripcion" id="desc5">
+                <p>Ideal para aquellos que están iniciándose en el rubro.<br>
+                   Para carros de 15 bandejas 70x45 o 60x40.<br>
+                   Opciones: Quemador a <b>GAS</b> y <b>ELECTRICO</b>.<br>
+                   Capacidad de cocción 70 kg/h.
+                </p>
+               </div>
+            </div>
+          </div>
+          <div class="producto">
+            <img class="img" src="img/Equipos/Hornos/7.jpg" width="100%">
+            <div class="info">
+              <h4 class="titulo">Rotativo ZU 97</h4>
+              <button id="boton" class="icon-info" onfocus="mostrar(document.getElementById('desc6')) ;" 
+                  onblur="ocultar(document.getElementById('desc6')) ;"></button>
+               <div class="descripcion" id="desc6">
+                <p>Para 9 bandejas 70x45.<br>
+                   Base con latero de 5 estantes.<br>
+                   Opciones: Quemador a <b>GAS</b> y <b>ELECTRICO</b>.<br>
+                   Capacidad de cocción 50kg/h
+                   </p>
+               </div>
+              </div>
+          </div>
+          <div class="producto">
+            <img class="img" src="img/Equipos/Hornos/4.jpg" width="100%">
+            <div class="info">
+              <h4 class="titulo">Rotativo Uno +</h4>
+              <button id="boton" class="icon-info" onfocus="mostrar(document.getElementById('desc7')) ;" 
+                  onblur="ocultar(document.getElementById('desc7')) ;"></button>
+               <div class="descripcion" id="desc7">
+                <p>Para carros de 15 bandejas 70X45 o 60X40.<br>
+                   Realizado totalmente en acero inoxidable.<br>
+                   Enganche de carro superior.<br>
+                   Opciones: Quemador a <b>GAS</b> y <b>ELECTRICO</b>.<br>
+                   Capacidad de cocción: 80 kg/hora<br>
+                   </p>
+               </div>
+              </div>
+          </div>
+          <div class="producto">
+            <img class="img" src="img/Equipos/Hornos/6.jpg" width="100%">
+            <div class="info">
+              <h4 class="titulo">Rotativo HT 7045</h4>
+              <button id="boton" class="icon-info" onfocus="mostrar(document.getElementById('desc8')) ;" 
+                  onblur="ocultar(document.getElementById('desc8')) ;"></button>
+               <div class="descripcion" id="desc8">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+               </div>
+              </div>
+          </div>
+          <div class="producto">
+            <img class="img" src="img/Equipos/Hornos/11.jpg" width="100%">
+            <div class="info">
+              <h4 class="titulo">Rotativo HT2 7090</h4>
+              <button id="boton" class="icon-info" onfocus="mostrar(document.getElementById('desc9')) ;" 
+                  onblur="ocultar(document.getElementById('desc9')) ;"></button>
+               <div class="descripcion" id="desc9">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+               </div>
+              </div>
+          </div>
+          <div class="producto">
+            <img class="img" src="img/Equipos/Hornos/13.jpg" width="100%">
+            <div class="info">
+              <h4 class="titulo">Rotativo Uno</h4>
+              <button id="boton" class="icon-info" onfocus="mostrar(document.getElementById('desc10')) ;" 
+                  onblur="ocultar(document.getElementById('desc10')) ;"></button>
+               <div class="descripcion" id="desc10">
+                <p>Para carros de 15 bandejas 70X45 o 60X40.<br>
+                   Realizado totalmente en acero inoxidable.<br>
+                   Enganche de carro superior.<br>
+                   Opciones: Quemador a <b>GAS</b> y <b>ELECTRICO</b>.<br>
+                   Capacidad de cocción: 80 kg/hora<br>
+                   </p>
+               </div>
+              </div>
+          </div>
+          <div class="producto">
+            <img class="img" src="img/Equipos/Hornos/14.jpg" width="100%">
+            <div class="info">
+              <h4 class="titulo">Rotativo Histana</h4>
+              <button id="boton" class="icon-info" onfocus="mostrar(document.getElementById('desc11')) ;" 
+                  onblur="ocultar(document.getElementById('desc11')) ;"></button>
+               <div class="descripcion" id="desc11">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+               </div>
+              </div>
+          </div>
+ 		      <div class="producto">
+ 		    	  <img class="img" src="img/Equipos/Hornos/5.jpg" width="100%">
+ 		    	  <div class="info">
+ 		    	    <h4 class="titulo">Rotativo Arpan</h4>
+ 		    	    <button id="boton" class="icon-info" onfocus="mostrar(document.getElementById('desc12')) ;" 
+                  onblur="ocultar(document.getElementById('desc12')) ;"></button>
+                 <div class="descripcion" id="desc12">
+                  <p>Para carro de 15 bandejas 70x45 60x40.<br>
+                   Doble comando operativo. Tablero principal en el frente del horno y alternativo en mochila lateral.<br>
+                   Enganche de carro superior.<br>
+                   Capacidad de cocción 70kg/hora.<br>
+                   Opciones: Quemador a <b>GAS</b> y <b>ELECTRICO</b>.<br>
+                   </p>
+                 </div>
+ 		          </div>
+ 		      </div>
+          
+            <!-- CONVECTORES -->
+          <div class="producto">
+            <img class="img" src="img/Equipos/Hornos/Convectores/1.jpg" width="100%">
+            <div class="info">
+              <h4 class="titulo">Convector Beta 21</h4>
+              <button id="boton" class="icon-info" onfocus="mostrar(document.getElementById('desc13')) ;" 
+                  onblur="ocultar(document.getElementById('desc13')) ;"></button>
+               <div class="descripcion" id="desc13">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+               </div>
+              </div>
+          </div>
+          <div class="producto">
+            <img class="img" src="img/Equipos/Hornos/Convectores/2.jpg" width="100%">
+            <div class="info">
+              <h4 class="titulo">Convector Beta 107</h4>
+              <button id="boton" class="icon-info" onfocus="mostrar(document.getElementById('desc14')) ;" 
+                  onblur="ocultar(document.getElementById('desc14')) ;"></button>
+               <div class="descripcion" id="desc14">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+               </div>
+              </div>
+          </div>
+          <div class="producto">
+            <img class="img" src="img/Equipos/Hornos/Convectores/3.jpg" width="100%">
+            <div class="info">
+              <h4 class="titulo">Convector Stratos Classic</h4>
+              <button id="boton" class="icon-info" onfocus="mostrar(document.getElementById('desc15')) ;" 
+                  onblur="ocultar(document.getElementById('desc15')) ;"></button>
+               <div class="descripcion" id="desc15">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+               </div>
+              </div>
+          </div>
+          <div class="producto">
+            <img class="img" src="img/Equipos/Hornos/Convectores/4.jpg" width="100%">
+            <div class="info">
+              <h4 class="titulo">Convector Stratos Old Style</h4>
+              <button id="boton" class="icon-info" onfocus="mostrar(document.getElementById('desc16')) ;" 
+                  onblur="ocultar(document.getElementById('desc16')) ;"></button>
+               <div class="descripcion" id="desc16">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+               </div>
+              </div>
+          </div>
+          <div class="producto">
+            <img class="img" src="img/Equipos/Hornos/Convectores/5.jpg" width="100%">
+            <div class="info">
+              <h4 class="titulo">Convector Stratos Crystal</h4>
+              <button id="boton" class="icon-info" onfocus="mostrar(document.getElementById('desc17')) ;" 
+                  onblur="ocultar(document.getElementById('desc17')) ;"></button>
+               <div class="descripcion" id="desc17">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+               </div>
+              </div>
+          </div>
+          <div class="producto">
+            <img class="img" src="img/Equipos/Hornos/Convectores/6.jpg" width="100%">
+            <div class="info">
+              <h4 class="titulo">Convector 10 Bandejas</h4>
+              <button id="boton" class="icon-info" onfocus="mostrar(document.getElementById('desc18')) ;" 
+                  onblur="ocultar(document.getElementById('desc18')) ;"></button>
+               <div class="descripcion" id="desc18">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+               </div>
+              </div>
+          </div>
+          <div class="producto">
+            <img class="img" src="img/Equipos/Hornos/Convectores/7.jpg" width="100%">
+            <div class="info">
+              <h4 class="titulo">Convector ZU-2020</h4>
+              <button id="boton" class="icon-info" onfocus="mostrar(document.getElementById('desc19')) ;" 
+                  onblur="ocultar(document.getElementById('desc19')) ;"></button>
+               <div class="descripcion" id="desc19">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+               </div>
+              </div>
+          </div>
+                    		 			
+ 		</section>
+ 		<section class="formulario" id="formulario">
+ 			<form action="enviar.php" method="post">
+ 				<!--<fieldset>-->
+ 			       <legend>Formulario de contacto</legend> 
+ 				    <input type="text" name="NyA" required placeholder="Nombre y Apellido" >
+ 				    <input type="number" name="Telefono" required placeholder="Número de teléfono">
+ 				    <input type="email" name="Correo" required placeholder="Correo Electrónico">
+ 				    <textarea name="descripcion" required placeholder="Nombre y breve descripción del producto solicitado" style="height: 150px;"></textarea>
+ 				    <input type="submit" name="Enviar">
+ 				<!--</fieldset>-->
+ 			</form>
+ 		</section>
+ 	</div>
+
+ 	<footer id="contact-info">
+      <div class="logos">
+         <a href="#"  target="_BLANK"class="buttom-logo"><img src="img/wspLogo.png"></a>
+         <a href="https://www.instagram.com/comercialcaristia/" target="_BLANK" class="buttom-logo"><img src="img/instagramLogo.png"></a>
+      </div>
+      <div class="copy">
+      <p>© 2022 Comercial Caristia <br> Diseño <a href="#"><b>Giorgis WD</b></a></p>
+      </div>
+      <div class="contact">
+         <h4>CONTACTANOS</h4>
+         <a href="#" target="_BLANK" class="buttom-logo" ><img class="logoGmail" src="img/gmailLogo.png"></a>
+      </div>
+   </footer>
+
+   <!-- --SCRIPTS de JS-- -->
+   <script src="js/funciones.js"></script>
+   <script src="js/solicitudes.js"></script>
+</body>
+</html>
